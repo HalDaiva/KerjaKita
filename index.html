@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Very Cool Website</title>
+  <link rel="stylesheet" href="css/halamanformat.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2875035409.js" crossorigin="anonymous"></script>
+  <script>
+    function go(){
+      document.getElementById("start").innerHTML = "Bienvenue";
+    }
+  </script>
+</head>
+<body>
+
+<h1 style="font-family: 'Bebas Neue'; text-align: center; font-size: 300%">Hello Friend!</h1>
+<h2 style="font-size: 26px; color: purple">G'day m8</h2>
+
+<p title="paragraph">This is the <b><i>first line</i></b> of <strong>paragraph</strong> <br> <del>cool</del> <mark>roite</mark> m8?</p>
+<p><br>CSS is here ma boy!</p>
+<br>
+<a href="#tetikus">btw do you like mouse?</a>
+<hr>
+<p style="color: red">very cool</p>
+<a href="https://www.w3schools.com" target="_blank">google it! <br></a>
+
+<!--<img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" alt="jembatan" width="400">-->
+<img src="/img/magic of kethuk.jpg" alt="Magic of Kethuk" width="400">
+
+<pre>
+  is this the real life
+  is this just fantasy
+</pre>
+
+<bdo dir="rtl">are you serious?</bdo>
+<br><br>
+<a href="index.html">go to index page</a>
+<br>
+<p>image below will change depends on resolution!</p>
+<br>
+<picture>
+  <source media="(min-width: 600px)" srcset="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg" width="400px">
+  <img src="https://www.shutterstock.com/image-photo/surreal-image-african-elephant-wearing-260nw-1365289022.jpg" alt="">
+</picture>
+<br><br>
+<table>
+  <caption><b></b></caption>
+  <tr>
+    <th colspan="2">cool</th>
+    <th>indeed</th>
+  </tr>
+  <tr>
+    <td>one of a kind</td>
+    <td>two steps from hell</td>
+    <td>three little pig</td>
+  </tr>
+  <tr>
+    <td>cool sir</td>
+    <td>yeah m8</td>
+    <td>weeeee</td>
+  </tr>
+</table>
+
+<p>here's a list</p>
+<ol>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+</ol>
+
+<p>here's other <span style="border: 1px solid; padding: 4px">list</span></p>
+<ul style="list-style-type: circle">
+  <li>cool</li>
+  <li>roite?</li>
+  <li>m8</li>
+</ul>
+
+<div class="brand">
+  <h2>Razer</h2>
+  <p><span id="tetikus">mouse</span> and keyboard</p>
+</div>
+
+<div class="brand">
+  <h2>yamaha</h2>
+  <p>piano and motorcycle</p>
+</div>
+
+<p>here's some information of the program i use to make this</p>
+<iframe src="https://en.wikipedia.org/wiki/IntelliJ_IDEA" frameborder="0" width="100%"></iframe>
+
+<h2 style="font-size: 8vw">based on viewport</h2>
+
+<div class="left"><p>kiri</p></div>
+<div class="mid"><p>tengah</p></div>
+<div class="right"><p>kanan</p></div>
+
+<br>
+<p>hello man</p>
+<p style="font-size: 30pt">&#128512; &#128516; &#128525; &#128151;</p>
+
+<form action="/index.html">
+  <fieldset>
+    <legend><b><i>A little form for you to fill</i></b></legend>
+    <label for="name">Your name sir:</label><br>
+    <input type="text" id="name" name="name" value="Jane Doe"><br><br>
+    <label for="card">Please input your  <select name="cardtype" id="cardtype">
+      <option value="debit">Debit Card</option>
+      <option value="credit" selected>Credit Card</option>
+    </select> (not a scam i swear)</label><br>
+    <input type="text" id="card" name="card" required placeholder="XXXX-XXXX-XXXX-XXXX" pattern="\d{16}|\d{4}-\d{4}-\d{4}-\d{4}" maxlength="19" size="19" title="16 Digits Number"><br>
+
+    <input type="radio" id="visa" name="usedcard" value="VISA">
+    <label for="visa">VISA</label><br>
+    <input type="radio" id="mastercard" name="usedcard" value="MC">
+    <label for="mastercard">MasterCard</label><br>
+    <input type="radio" id="ae" name="usedcard" value="AmericanExpress">
+    <label for="ae">American Express</label><br><br>
+
+    <label for="barang">What device do you use to view this?</label><br>
+    <input list="device" id="barang" name="device">
+    <datalist id="device">
+      <option value="Desktop">
+      <option value="Laptop">
+      <option value="Smartphone">
+      <option value="Smart Fridge">
+      <option value="Nintendo DS">
+      <option value="Toaster">
+    </datalist>
+    <br><br>
+    <label for="warna">Pick a cool color</label>
+    <input type="color" id="warna" name="warna" value="#ADD8E6"><br><br>
+    <label for="tgl">When did you come to this world? (yes, hour & minute too)</label><br>
+    <input type="datetime-local" id="tgl" name="tgl"><br><br>
+    <label for="believemeter">Tell me your Believemeter</label><br>
+    <input type="range" id="believemeter" value="10"><br><br>
+
+    <label for="scamdesc">Please describe why do you think this is a scam/not a scam:</label><br>
+    <textarea name="desc" id="scamdesc" cols="30" rows="10">Because it looks legit</textarea><br>
+    <button name="button" onclick="event.preventDefault(); alert('It is real bro')">Convince Me!</button><br><br>
+    Please enter your login info before submitting the form <br>
+    <label for="mail">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+    <input type="email" name="mail" id="mail"><br>
+    <label for="pass">Password&nbsp;:</label>
+    <input type="password" id="pass" name="pass" onkeydown="if(event.keyCode === 13) event.preventDefault()"><br><br>
+    <label for="file">Upload your picture:</label>
+    <input type="file" id="file" name="file" multiple><br><br>
+    <input type="checkbox" id="noscam" name="noscam" value="Believe">
+    <label for="noscam">I have agreed and believed that form above is not scam</label><br>
+    <input type="submit" value="Submit now!">
+    <input type="reset" value="Reset it!"><br><br>
+  </fieldset>
+
+</form>
+<br><br>
+<p><b><i>Dear god</i></b></p>
+<video width="400" controls>
+  <source src="video/sevenfold.mp4" type="video/mp4">
+</video>
+<br>
+
+<p>here's a music composition i made:</p>
+<audio controls>
+  <source src="audio/comp2.mp3" type="audio/mp3">
+</audio>
+<br><br><br>
+<p>here watch some youtube</p><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9Zw6xOGly0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br><br>
+<p id="demo">Before</p>
+<button onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript'">Press this button!</button>
+<br>
+<h2 class="play" id="start" style="color: green">Press Play</h2><br>
+<button onclick="go()">Play</button>
+<button onclick=changeColor()>Change color</button>
+<br><br>
+<i class="fas fa-cloud"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-solid fa-headphones"></i>
+
+
+<br><br>
+<i class="fa-brands fa-instagram" style="color: red"></i>
+<i class="fa-brands fa-twitter" style="color: cornflowerblue;"></i>
+<i class="fa-brands fa-facebook" style="color: blue"></i>
+<br>
+<script>
+  document.write(Date());
+  function changeColor(){
+    let x = document.getElementById("start").style.color;
+    if(x=="red"){
+      document.getElementById("start").style.color = "green";
+    } else {
+      document.getElementById("start").style.color = "red";
+    }
+  }
+</script>
+
+</body>
+</html>

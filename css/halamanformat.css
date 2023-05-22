@@ -1,0 +1,90 @@
+body {
+  background-color: pink;
+  background-image: url("/img/pngegg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+p2{
+  color: blue;
+}
+bdo {
+  color: white;
+  background-color: red;
+  border: 2px solid black;
+  padding: 7px;
+  margin: 10px;
+}
+bdo:hover{
+  background-color: lightblue;
+}
+
+a:link{
+  color: red;
+  text-decoration: none;
+}
+a:visited{
+  color: #588b53;
+  text-decoration: none;
+}
+h1{
+  background-image: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000");
+  background-size: cover;
+}
+table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td, th{
+  padding: 10px;
+}
+th{
+  background-color: yellow;
+}
+
+td:hover, th:hover{
+  background-color: lightblue;
+}
+
+.brand{
+  background-color: tomato;
+  color: white;
+}
+
+#tetikus{
+  color: black;
+}
+
+.left{
+  background-color: #588b53;
+  /*padding: 10px;*/
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.mid{
+  background-color: white;
+  /*padding: 10px;*/
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+.right{
+  background-color: #ed6d6d;
+  /*padding: 10px;*/
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.play{
+  font-family: "Press Start 2P", cursive;
+  font-size: 3em;
+}
+
+@media screen and (max-width: 500px){
+  .left, .right, .mid{
+    width: 100%;
+  }
+
+}
