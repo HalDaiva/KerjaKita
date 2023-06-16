@@ -12,42 +12,42 @@
 </head>
 
 <body>
-  <div class="container">
-    <h2>Pendaftaran</h2>
-    <p>Mohon isi data berikut dengan benar</p>
-    <form>
-      <label for="username"></label>
-      <input type="email" placeholder="Alamat e-mail" id="username" name="username" required>
+<div class="container">
+  <h2>Pendaftaran</h2>
+  <p>Mohon isi data berikut dengan benar</p>
+  <form>
+    <label for="username"></label>
+    <input type="email" placeholder="Alamat e-mail" id="username" name="username" required>
 
-      <label for="password"></label>
-      <input type="password" placeholder="Password" id="email" name="email" required>
+    <label for="password"></label>
+    <input type="password" placeholder="Password" id="email" name="email" required>
 
-      <label for="password"></label>
-      <input type="password" placeholder="Ulangi Password" id="password" name="password" required>
+    <label for="password"></label>
+    <input type="password" placeholder="Ulangi Password" id="password" name="password" required>
 
 
-      <input id="register"type="submit" value="Register" onclick="redirectToPage()">
-      <input type="checkbox" id="setuju" name="setuju" value="setuju">
-      <label for="setuju" id="setuju"> Saya menyetujui <a style="text-decoration:none" id="sk"
-          href="https://google.com">
-          Syarat dan Ketentuan </a> dan <a style="text-decoration:none" id="privasi" href="https://google.com">
-          Kebijakan Privasi </a> yang berlaku</label>
-    </form>
+    <input id="register"type="submit" value="Register" onclick="redirectToPage()">
+    <input type="checkbox" id="setuju" name="setuju" value="setuju">
+    <label for="setuju" id="setuju"> Saya menyetujui <a style="text-decoration:none" id="sk"
+                                                        href="https://google.com">
+      Syarat dan Ketentuan </a> dan <a style="text-decoration:none" id="privasi" href="https://google.com">
+      Kebijakan Privasi </a> yang berlaku</label>
+  </form>
 
-    <hr>
-    <p>Sudah punya akun? <a style="text-decoration:none" id="masuk" href="login.html"> Masuk di sini </a></p>
+  <hr>
+  <p>Sudah punya akun? <a style="text-decoration:none" id="masuk" href="login.html"> Masuk di sini </a></p>
 
-  </div>
+</div>
 
-  <script>
-    function redirectToPage() {
-      event.preventDefault();
-      // Perform any necessary login logic here
+<script>
+  function redirectToPage() {
+    event.preventDefault();
+    // Perform any necessary login logic here
 
-      // Redirect the user to the desired page
-      window.location.href = "index.html";
-    }
-  </script>
+    // Redirect the user to the desired page
+    window.location.href = "index.html";
+  }
+</script>
 </body>
 
 </html>
