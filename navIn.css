@@ -87,6 +87,7 @@
 
 .hamburger:hover{
   color: #710000;
+  background-color: white !important;
 }
 
 @media (max-width: 1300px) {

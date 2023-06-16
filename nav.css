@@ -130,6 +130,7 @@ h1 {
 
 .hamburger:hover{
   color: #710000;
+  background-color: white !important;
 }
 
 .sec1 {
